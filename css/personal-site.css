@@ -1,0 +1,96 @@
+/*!
+ * Bruno Prela 6.170 Personal Website 
+ * Copyright Bruno Prela 2016
+ */
+
+/* Note: This CSS file was simply too small to split up, and without a templating engine 
+to help with repeated code, too many of the split up CSS files would repeat lines of code.
+So, it was a deliberate decision to keep all the CSS in one compact file with good comments. */
+
+/* Body */
+body {
+    color: black;
+    background-color: white;
+}
+
+/* Footer */
+footer {
+    margin: 50px 0;
+}
+
+/* Index Page */
+h3.index-center{
+    text-align:center
+    font-size: 100%;
+    height: 100%;
+    line-height: 100%;
+}
+
+.css-selector{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/* Navigation Bar */
+ul {
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-decoration: none;
+}
+
+li {
+    float: left;
+    text-decoration: none;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: white;
+    text-decoration: none;
+}
+
+.active {
+    text-decoration: none;
+    background-color: #666;
+    color: white;
+}
+
+
+/* Image sizing */
+img.resize{
+    width:380px;
+    height: auto;
+}
+
+img.index-resize{
+    width:420px;
+    height: auto;
+}
+
+img.skills-resize{
+    width:250px;
+    height: auto;
+}
+
+
+img.interests-resize{
+    width:330px;
+    height: auto;
+}
+
+img.contact-resize{
+    width:75px;
+    height: auto;
+}
+
+
